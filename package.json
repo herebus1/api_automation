@@ -1,0 +1,28 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "Automation examples in cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herebus1/api_automation.git"
+  },
+  "keywords": [
+    "api",
+    "automation",
+    "postman",
+    "cypress"
+  ],
+  "author": "jairoam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herebus1/api_automation/issues"
+  },
+  "homepage": "https://github.com/herebus1/api_automation#readme",
+  "devDependencies": {
+    "cypress": "^8.4.0"
+  }
+}
