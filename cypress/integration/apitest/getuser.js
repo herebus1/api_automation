@@ -20,13 +20,13 @@ describe('get user from api', () =>{
     it('get user by id', ()=> {
         cy.request({
             method: 'GET',
-            url: 'https://gorest.co.in/public/v1/users/2229',
+            url: 'https://gorest.co.in/public/v1/users/2010',
             Headers: {
                 'authorization' : accessToken
             }
         }).then((response)=>{
             expect(response.status).to.eq(200)
-            expect(response.body.data.name).to.contain('Tenali')
+            expect(response.body.data.name).to.contain('Jairo')
         })
-    })
+    }) 
 })

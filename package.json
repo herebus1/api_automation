@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/herebus1/api_automation#readme",
   "devDependencies": {
-    "cypress": "^8.4.0"
+    "cypress": "^8.4.1"
   }
 }
